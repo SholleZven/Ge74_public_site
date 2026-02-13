@@ -4,5 +4,9 @@ RUN docker-php-ext-install pdo pdo_mysql mysqli
 
 WORKDIR /var/www/html
 
+RUN curl -L https://raw.github.com/wp-cli/builds/gh-pages/phar/wp-cli.phar > wp-cli.phar \
+    && chmod +x wp-cli.phar \
+    && mv wp-cli.phar /usr/bin/wp
+
 RUN chown -R www-data:www-data /var/www/html \
     && chmod -R 775 /var/www/html

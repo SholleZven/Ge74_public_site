@@ -27,7 +27,7 @@ services:
       - mysql
 
   nginx:
-    image: nginx:1.29-alpine
+    image: nginx:1.29.1
     container_name: wp_nginx
     restart: unless-stopped
     ports:

@@ -1,1 +1,4 @@
 .env
+/wordpress/wp-config.php
+/wordpress/wp-cli.phar
+/wordpress/wp-content
