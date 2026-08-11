@@ -42,5 +42,7 @@
         }
     },
     "editorScript": "file:./build/hero.js",
+    "style": "file:./build/hero.css",
+    "editorStyle": "file:./build/hero.css",
     "render": "file:./render.php"
 }

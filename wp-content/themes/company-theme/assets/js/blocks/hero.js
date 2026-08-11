@@ -1,3 +1,5 @@
+import '../../../blocks/hero/hero.scss';
+
 import {
     useBlockProps,
     RichText,
