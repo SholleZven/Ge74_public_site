@@ -1,0 +1,46 @@
+{
+    "apiVersion": 3,
+    "name": "company/hero",
+    "title": "Hero",
+    "description": "Hero section for the company website.",
+    "category": "design",
+    "icon": "cover-image",
+    "keywords": [
+        "hero",
+        "banner",
+        "company"
+    ],
+    "supports": {
+        "html": false,
+        "align": false,
+        "anchor": true
+    },
+    "attributes": {
+        "heading": {
+            "type": "string",
+            "default": ""
+        },
+        "text": {
+            "type": "string",
+            "default": ""
+        },
+        "buttonText": {
+            "type": "string",
+            "default": ""
+        },
+        "buttonUrl": {
+            "type": "string",
+            "default": ""
+        },
+        "imageUrl": {
+            "type": "string",
+            "default": ""
+        },
+        "imageId": {
+            "type": "number",
+            "default": 0
+        }
+    },
+    "editorScript": "file:./build/hero.js",
+    "render": "file:./render.php"
+}
