@@ -1,4 +1,8 @@
 .env
 /wordpress/wp-config.php
 /wordpress/wp-cli.phar
-/wordpress/wp-content
+/wordpress/wp-content/languages
+/wordpress/wp-content/plugins
+/wordpress/wp-content/upgrade
+/wordpress/wp-content/uploads
+/wordpress/wp-content/themes
